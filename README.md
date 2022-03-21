@@ -14,3 +14,6 @@ Index :
 7 - 8 - Good wine
 
 Link to the dataset : https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
+
+
+## Built a random forest classifier model used to teat the model evaluation
