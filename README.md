@@ -1,19 +1,29 @@
-# Wine-Quality-Prediction
-Predicting the quality of a wine
+#Employer Turnover Analysis
 
-## Business Background and Project Overview
-The Board of the production department of a large corporation I work for is worried about the relatively high production of wine and wants me to build a model that predict if the wine is good or not. As a Data Scientist on the team assigned to this task, I am to build a model to better understand the situation.
+## Summary of Key Insights and Recommendations
+The profile of employees at high risk of attrition include employees that:
 
-## DataSet
-![Screenshot 2022-03-21 030057](https://user-images.githubusercontent.com/67734700/159239702-2e90fa22-c7b1-4f5d-9ec6-87d88a0d3401.png)
+are involved in low number of projects (3 or less)
+work shorter hours (less than 184 hours monthly on average)
+work in the company for about 5 to 8 years
+are mostly high performers (review score of 0.7 or more)
+gave satisfaction scores of less than 0.7
+are in the sales, retail, engineering or operations department
+received medium salary
+had no bonus in the previous 24 months
+had not been promoted in the previous 24 months
+The recommendations are to:
 
-Index :
+provide high performers and passives bonuses and promotions in shorter time periods than 24 months
+increase the salary of such employees
+ensure the employees are more engaged by giving them more projects to work on
+have incentives and packages to celebrate long service (between 5 to 8 years) to improve employee retainership
 
-0 - 6 - Bad wine
+## Resources and References
+https://www.kaggle.com/joshuaswords/netflix-data-visualization
 
-7 - 8 - Good wine
+https://data-enhanced.com/2020/10/06/leveraging-the-narrative-arc-to-inspire-data-driven-action/
 
-Link to the dataset : https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009
+https://towardsdatascience.com/stacked-bar-charts-with-pythons-matplotlib-f4020e4eb4a7
 
-
-## Built a random forest classifier model used to teat the model evaluation
+https://matplotlib.org/devdocs/gallery/misc/packed_bubbles.html
